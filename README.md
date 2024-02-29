@@ -22,6 +22,7 @@ This repo is inspired and gives credit to [`Edd Wesbter`]([https://numpy.org/doc
     <li><a href="#getting-started"> 🚀 Getting Started</a></li>
     <li><a href="#repository-structure"> 🌵 Repository Structure</a></li>
     <li><a href="#tutorials">🧑‍🎓 Tutorials</a></li>
+    <li><a href="#analysis">📍 Current Analysis</a></li>
   </ol>
 
 <!-- GETTING STARTED -->
@@ -84,5 +85,12 @@ The contents of this GitHub repository is organised as follows:
   <a href="#top"><b>🔝 Return </b></a>
 </p>
 
+<h2 id="analysis"> 📍 Analysis</h2>
 
-![Login Project](practice/images/login-ss.jpg)
+*    Analysis of the passing network for the England v Sweden WWC match, showcasing the passing pairs and network for Englands approach to the game.
+
+![Pass network Project](/images/engswedpass.png)
+
+<p align="right">
+  <a href="#top"><b>🔝 Return </b></a>
+</p>
