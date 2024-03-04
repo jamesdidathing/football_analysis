@@ -93,7 +93,7 @@ The contents of this GitHub repository is organised as follows:
 
 * Analysis of danger passes for the England Women's team in WWC. Presented as a heat map across all games played
 
-<img src="/images/heatmap.png" width="500">
+<img src="/images/heatmap_passes.png" width="500">
 
 <p align="right">
   <a href="#top"><b>🔝 Return </b></a>
