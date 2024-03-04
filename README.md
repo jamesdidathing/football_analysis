@@ -89,7 +89,11 @@ The contents of this GitHub repository is organised as follows:
 
 *    Analysis of the passing network for the England v Sweden WWC match, showcasing the passing pairs and network for Englands approach to the game.
 
-![Pass network Project](/images/engswedpass.png)
+<img src="/images/engswedpass.png" width="400">
+
+* Analysis of danger passes for the England Women's team in WWC. Presented as a heat map across all games played
+
+<img src="/images/heatmap.png" width="400">
 
 <p align="right">
   <a href="#top"><b>🔝 Return </b></a>
