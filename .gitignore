@@ -1,3 +1,5 @@
 /venv
 soccermatics/data
 test.ipynb
+*.DS_Store
+soccermatics/.DS_Store
