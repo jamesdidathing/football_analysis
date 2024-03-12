@@ -95,6 +95,12 @@ The contents of this GitHub repository is organised as follows:
 
 <img src="/images/heatmap_passes.png" width="500">
 
+1. Visualisation of Thierry Henry's shots across the Invincible 2003/2004 season, including missed shots.
+2. Visualisation of all goals scored by Thierry Henry in the 2003/2004 season, where size of the circle represents a scaled xG value. 
+  
+<img src="/images/henry_shots.png" width="300">
+<img src="/images/henry_xg_map.png" width="300">
+
 <p align="right">
   <a href="#top"><b>🔝 Return </b></a>
 </p>
