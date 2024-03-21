@@ -87,20 +87,37 @@ The contents of this GitHub repository is organised as follows:
 
 <h2 id="analysis"> 📍 Analysis</h2>
 
+
+### More in depth look into the style of play and individual players across the 2015/16 season wherein Leicester City won the Premier League title.
+
+* The first infographic displays areas of the pitch where teams most often created a dangerous pass (a pass that led to a shot within 15s of the pass) through a heatmap. We can see through this that some teams (Newcastle, Manchester Utd, Chelsea, Swansea) typically created these chances through one side of the pitch. The title winners this season, Leicester, created dangerous passes all over the pitch whereas runners-up Arsenal created high density pockets (0.2/game) just outside of the penalty box.
+
+<p align="center">
+  <img src="/images/dangerpass2015:16.png" width="500">
+</p>
+
+* The second infographic displays heatmaps for each teams biggest chance creators. Here, chances are defined as a direct pass leading to a shot. One of the more standout players here is Danny Drinkwater, who alongside Vardy, Mahrez and Kante was an often forgotten about key player in Leicester's team. With an average Chance Creation position being much deeper than most other teams, it shows how successful Leicester City's counter attacking was. 
+
+<p align="center">
+  <img src="/images/chnces2015:16.png" width="500">
+</p>
+
+* The third infographic displays all positions of passes, assists and passes-leading-to-shots of the top 5 assist makers this season. The 2015/16 season was one of Mesut Ozil's best for Arsenal, shown by the vast number of passes made by the number 10 all across the pitch. One reason for Arsenal not being able to catchup with Leicester this season was due to their lack of clinical finishing. This is exemplified by the fact Mesut Ozil had 103 passes leading to shots, over double of Riyad Mahrez's 45 who only had 7 less assists. 
+
+<p align="center">
+  <img src="/images/assists2015:16.png" width="500">
+</p>
+
 *    Analysis of the passing network for the England v Sweden WWC match, showcasing the passing pairs and network for Englands approach to the game.
 
-<img src="/images/engswedpass.png" width="400">
-
-* Analysis of danger passes for the England Women's team in WWC. Presented as a heat map across all games played
-
-<img src="/images/heatmap_passes.png" width="500">
+<p align="center">
+  <img src="/images/engswedpass.png" width="400">
+</p>
 
 1. Visualisation of Thierry Henry's shots across the Invincible 2003/2004 season, including missed shots.
 2. Visualisation of all goals scored by Thierry Henry in the 2003/2004 season, where size of the circle represents a scaled xG value. 
-  
-<img src="/images/henry_shots.png" width="300">
-<img src="/images/henry_xg_map.png" width="300">
 
-<p align="right">
-  <a href="#top"><b>🔝 Return </b></a>
+<p align="center">
+  <img src="/images/henry_shots.png" width="300">
+  <img src="/images/henry_xg_map.png" width="300">
 </p>
