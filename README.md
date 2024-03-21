@@ -90,7 +90,7 @@ The contents of this GitHub repository is organised as follows:
 
 ### More in depth look into the style of play and individual players across the 2015/16 season wherein Leicester City won the Premier League title.
 
-* The first infographic displays areas of the pitch where teams most often created a dangerous pass (a pass that led to a shot within 15s of the pass) through a heatmap. We can see through this that some teams (Newcastle, Manchester Utd, Chelsea, Swansea) typically created these chances through one side of the pitch. The title winners this season, Leicester, created dangerous passes all over the pitch whereas runners-up Arsenal created high density pockets (0.2/game) just outside of the penalty box.
+* The first infographic displays areas of the pitch where teams most often created a dangerous pass (a pass that led to a shot within 15s of the pass) through a heatmap. We can see through this that some teams (Newcastle, Manchester Utd, Chelsea, Swansea) typically created these chances through one side of the pitch. The title winners this season, Leicester, created a low number of dangerous passes per game whereas runners-up Arsenal created much more around the edge of the box.
 
 <p align="center">
   <img src="/images/dangerpass2015:16.png" width="500">
@@ -107,6 +107,14 @@ The contents of this GitHub repository is organised as follows:
 <p align="center">
   <img src="/images/assists2015:16.png" width="500">
 </p>
+
+### Areas to improve
+For the above, these are the areas that could improve the analysis:
+- Dangerous Passes lead to showing teams with a more possession based approach as "better", where Leicester's counter attacking style is what won them so many games.
+- Quality of chances/shots needs to be considered with the final infographic, as although Ozil made many more passes-to-shots than Mahrez, it might be a combination of quality of passes and finishing that led to so many missed chances for Arsenal.
+- More defensive approached analysis would probably lend Leicester looking 'better' in these graphs, as they had a formidable pairing of Huth and Morgan.
+
+## Other analysis
 
 *    Analysis of the passing network for the England v Sweden WWC match, showcasing the passing pairs and network for Englands approach to the game.
 
