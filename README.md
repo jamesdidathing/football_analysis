@@ -114,6 +114,22 @@ For the above, these are the areas that could improve the analysis:
 - Quality of chances/shots needs to be considered with the final infographic, as although Ozil made many more passes-to-shots than Mahrez, it might be a combination of quality of passes and finishing that led to so many missed chances for Arsenal.
 - More defensive approached analysis would probably lend Leicester looking 'better' in these graphs, as they had a formidable pairing of Huth and Morgan.
 
+## 2023-2024 Prem Team Analysis
+
+* This series of analysis used web scraping techniques from FBREF to gather team and player data for plotting. The first and second plots are showcasing how teams perform in their progressive passing metrics as well as their shooting and defending metrics. The third plot showcases the players xG against the number of shots taken, with variables in plot point size and colour based on goals scored and number of shots on target.
+
+<p align="center">
+  <img src="/images/prem2023-sot.png" width="700">
+</p>
+
+<p align="center">
+  <img src="/images/prem2023-passes.png" width="700">
+</p>
+
+<p align="center">
+  <img src="/images/prem2023-xg.png" width="700">
+</p>
+
 ## Other analysis
 
 *    Analysis of the passing network for the England v Sweden WWC match, showcasing the passing pairs and network for Englands approach to the game.
