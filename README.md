@@ -130,6 +130,18 @@ For the above, these are the areas that could improve the analysis:
   <img src="/images/prem2023-xg.png" width="700">
 </p>
 
+## 2023-24 Championship Goal Scorers & Assisters Radar Plots
+
+* Again, using web scraping techniques and data from FBREF I have gathered data from the top goal scorers and top assisters for the Championship. To show a comparison in how these players perform, I have created a radar plot to showcase the differences.
+
+<p align="center">
+  <img src="/images/champ_top_scorers.png" width="600">
+</p>
+
+<p align="center">
+  <img src="/images/champ_top_assisters.png" width="600">
+</p>
+
 ## Other analysis
 
 *    Analysis of the passing network for the England v Sweden WWC match, showcasing the passing pairs and network for Englands approach to the game.
