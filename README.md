@@ -119,15 +119,15 @@ For the above, these are the areas that could improve the analysis:
 * This series of analysis used web scraping techniques from FBREF to gather team and player data for plotting. The first and second plots are showcasing how teams perform in their progressive passing metrics as well as their shooting and defending metrics. The third plot showcases the players xG against the number of shots taken, with variables in plot point size and colour based on goals scored and number of shots on target.
 
 <p align="center">
-  <img src="/images/prem2023-sot.png" width="700">
+  <img src="/images/prem2023-sot2.png" width="700">
 </p>
 
 <p align="center">
-  <img src="/images/prem2023-passes.png" width="700">
+  <img src="/images/prem2023-passes2.png" width="700">
 </p>
 
 <p align="center">
-  <img src="/images/prem2023-xg.png" width="700">
+  <img src="/images/prem2023-xg2.png" width="700">
 </p>
 
 ## 2023-24 Championship Goal Scorers & Assisters Radar Plots
