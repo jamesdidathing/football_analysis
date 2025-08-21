@@ -31,9 +31,10 @@ This repo is inspired and gives credit to [`Edd Wesbter`]([https://numpy.org/doc
 
 <h3 id="getting-started-dependencies"> ✅ Dependencies</h3>
 
-The code in this repository is written in Python. Before you begin, ensure that you have the following prerequisites installed:
+The code in this repository is written in Python and Rust. Before you begin, ensure that you have the following prerequisites installed:
 1. Python (ideally 3.6.1+ installed)
-3. The following Python libraries...
+2. Rust (latest stable version)
+3. The following libraries...
 
 <h4 id="getting-started-dependencies-python"> 🐍 Python</h3>
 
@@ -48,7 +49,13 @@ Football analytics Python libraries:
 *    [`mplsoccer`](https://github.com/andrewRowlinson/mplsoccer) - a Python library for plotting football pitches in matplotlib by [Andrew Rowlinson](https://twitter.com/numberstorm)
 *    [`statsbombapi`](https://github.com/Torvaney/statsbombapi) - a Python API wrapper and dataclasses for [StatsBomb](https://statsbomb.com/) data
 *    [`statsbombpy`](https://github.com/statsbomb/statsbombpy) - a Python library written by Francisco Goitia to access [StatsBomb](https://statsbomb.com/) data
-*    [`socceraction`](https://github.com/ML-KULeuven/socceraction) - a Python library for valuing the individual actions performed by soccer players. Includes an Expected Threat (xT) 
+*    [`socceraction`](https://github.com/ML-KULeuven/socceraction) - a Python library for valuing the individual actions performed by soccer players. Includes an Expected Threat (xT)
+
+<h4 id="getting-started-dependencies-rust"> 🦀 Rust</h4>
+
+Rust dependencies for the fantasy football recommendation system:
+*    [`reqwest`](https://github.com/seanmonstar/reqwest) - HTTP client for web scraping
+*    [`scraper`](https://github.com/causal-agent/scraper) - HTML parsing and CSS selector engine 
 
 
 <p align="right">
@@ -68,7 +75,16 @@ The contents of this GitHub repository is organised as follows:
     │   ├── plotting_shots.ipynb
     │   ├── sign_test.ipynb
     │   ├── using_wyscout.ipynb
-    │   └── using_statsbomb.ipynb   
+    │   └── using_statsbomb.ipynb
+    │
+    ├── 📂 rust_football/ ➡️ Rust implementation of fantasy football player recommendation system
+    │   ├── 📂 src/
+    │   │   ├── main.rs ➡️ main application entry point
+    │   │   ├── models.rs ➡️ player data structures (PlayerCA, PlayerPass, PlayerRecommendation)
+    │   │   ├── scraper.rs ➡️ web scraping functions for FBRef data
+    │   │   └── analysis.rs ➡️ player analysis and ranking algorithms
+    │   ├── Cargo.toml ➡️ Rust package configuration
+    │   └── Cargo.lock ➡️ dependency lock file
 
 <p align="right">
   <a href="#top"><b>🔝 Return </b></a>
@@ -141,6 +157,23 @@ For the above, these are the areas that could improve the analysis:
 <p align="center">
   <img src="/images/champ_top_assisters.png" width="600">
 </p>
+
+## Fantasy Football Player Recommendation System (Rust)
+
+A high-performance Rust application that scrapes live football data from FBRef and provides player recommendations for fantasy football leagues. Needs to be ran weekly through the PL season.
+
+### Features
+- **Web Scraping**: Automatically fetches Premier League player data from FBRef
+- **Multi-Metric Analysis**: Combines Shot Creating Actions (SCA90), Goal Creating Actions (GCA90), Expected Assists (xA), and passing threat metrics
+- **Player Ranking**: Generates top 3 lists across multiple performance categories
+- **Smart Recommendations**: Uses weighted algorithms to recommend the best weekly fantasy picks
+- **Modular Architecture**: Clean separation of concerns with dedicated modules for models, scraping, and analysis
+
+### Usage
+```bash
+cd rust_football
+cargo run
+```
 
 ## Other analysis
 
